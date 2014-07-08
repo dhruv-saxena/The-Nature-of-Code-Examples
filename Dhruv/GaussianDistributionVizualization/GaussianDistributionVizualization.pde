@@ -1,6 +1,4 @@
-// The Nature of Code
-// Daniel Shiffman
-// http://natureofcode.com
+// Introduction lesson in Nautre of Code
 int[] xvalues = {};
 
 void setup() {
@@ -11,7 +9,7 @@ void setup() {
 void draw() {
 
   int count = -1;
-  // Get a gaussian random number w/ mean of 0 and standard deviation of 1.0
+  // Get a gaussian random number w/ mean of 0 and standard deviation of 1.0 i.e will return floats between -3 to 3
   float xloc = randomGaussian();
   float sd = 100;                // Define a standard deviation
   float mean = width/2;         // Define a mean value (middle of the screen along the x-axis)
